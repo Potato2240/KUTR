@@ -1,5 +1,15 @@
 import React, { useMemo, useState, useEffect } from "react";
 
+import React from "react";
+
+export default function Home() {
+  return (
+    <div style={{padding: 24, fontFamily: "system-ui"}}>
+      <h1>배포 연결 OK</h1>
+      <p>이 화면이 보이면 라우팅은 정상입니다.</p>
+    </div>
+  );
+}
 
 // 번개런 포털 – 데모 버전 (클라이언트 상태/로컬스토리지 사용)
 // - 이벤트 목록, 생성, 참여/취소, 검색/필터, 정원/대기 표시
